@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/a1a1cf5b4f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <title>Drill Final Modulo 2</title>
+</head>
+<body>
+
+  <audio id="audioTag">
+		<source src="assets/css/digimon.mp3" type="audio/mpeg">
+	</audio>
+
+	
+
+       
+              <!-- Navbar Transparent -->
+              <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2b3033;">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">  </a>
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarText"
+                    aria-controls="navbarText"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <i class="fas fa-bars"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item" style="color:blueviolet ">
+                        <a class="nav-link" href="https://www.crunchyroll.com/es/series/GYEX24PV6/digimon-adventure-2020">Anime</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://es.wikipedia.org/wiki/Digimon">Historia</a>
+                      </li>
+                    </ul>
+                    <span class="navbar-text">
+                      <div onclick="document.getElementById('audioTag').play();">
+                        <img id="logo" src="assets/img/logo.png" alt="Imagen" width="200">                     </span>
+                  </div>
+                </div>
+              </nav>
+<!-- End Navbar -->
+
+    <div class="container">
+      <h5 style="color:white  " >Ingresa el Nombre de tu Digimon</h5>
+      <input type="text" id="search" placeholder="Buscar...">
+      <table class="table table-hover">
+          <thead>
+              <tr>
+                  <th>Nombre</th>
+                  <th>Nivel</th>
+                  <th>Imagen</th>
+              </tr>
+          </thead>
+          <tbody id="table-body">
+          </tbody>
+      </table>
+</div>
+
+    <footer><!-- Remove the container if you want to extend the Footer to full width. -->
+        <div class="container my-5">
+        
+          <footer class="bg-dark text-center text-white">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+        
+              <!-- Twitter -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-twitter"></i
+              ></a>
+        
+              <!-- Google -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-google"></i
+              ></a>
+        
+              <!-- Instagram -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-instagram"></i
+              ></a>
+        
+              <!-- Linkedin -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+        
+              <!-- Github -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-github"></i
+              ></a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+        
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-white" href="https://notengopaginaweb.com/">Digimon </a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+          
+        </div>
+        <!-- End of .container --></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
